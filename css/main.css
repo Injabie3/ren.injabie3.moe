@@ -1,0 +1,139 @@
+body {
+	background-color: #E3E3E3;	
+}
+.renbox {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #FFF;
+	color: #000;
+	line-height: normal;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px grey;
+	margin-bottom: 20px;
+}
+
+.renbox h1 {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #FF0000;
+	color: #FFF;
+	line-height: normal;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+.renbox h2 {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #FF0000;
+	color: #FFF;
+	line-height: normal;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+
+
+.renbox h4 {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #FF0000;
+	color: #FFF;
+	line-height: normal;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+.renbox p {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #FFF;
+	color: #000;
+	line-height: normal;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 0 0 10px 10px;
+}
+
+.ayubox {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #FFF;
+	color: #000;
+	line-height: normal;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px grey;
+	margin-bottom: 20px;
+}
+
+/*Added by yours truly, Ashton  :3*/
+.ayubox h2 {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #00cc7a;
+	color: #FFF;
+	line-height: normal;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+.ayubox h4 {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #FF0000;
+	color: #FFF;
+	line-height: normal;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+.ayubox p {
+	font-family: 'Oxygen', Arial, Meiryo UI, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #FFF;
+	color: #000;
+	line-height: normal;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 0 0 10px 10px;
+}
+.p-x-1
+{
+	padding:10px;	
+}
+
+.textverticalcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
