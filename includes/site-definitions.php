@@ -23,7 +23,7 @@ $sitedef_globalnav = $sitedef_root."/includes/navbar.php";
 $sitedef_footer = $sitedef_root."/includes/footer.php";
 
 #Include file for Discord API credentials
-require_once("config/discordapi.php");
+include_once("config/discordapi.php");
 
 $sitedef_metaAuthor = "Ren Bot";
 $sitedef_metaDescriptionPrefix = "Ren";
