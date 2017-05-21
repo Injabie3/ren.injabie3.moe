@@ -1,6 +1,6 @@
 <?php 
 	#Include site definitions
-	require_once('/var/www/html/site-definitions.php');
+	require_once('../includes/site-definitions.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,6 @@
    	<?php 
 		#Include the Bootstrap core. MUST COME FIRST IN HEAD!
 		require_once($sitedef_bootstrap_head);
-		require_once($sitedef_root.'anime_nowplaying.php');
 	?>
     <title><?php echo $sitedef_titlePrefix; ?> - Games</title>
 	<meta name="description" content="<?php echo $sitedef_metaDescriptionPrefix; ?> - Games: This page shows the games/activities that members of the SFU Anime Club Discord are engaged in.">
