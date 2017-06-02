@@ -39,7 +39,7 @@
                 <p>
                 	This page displays the current number of users connected to the SFU Anime Club Discord.<br>
 					The list of users was last cached on <strong><?php echo date("Y-m-d H:i:s", filemtime("/var/www/html/luiscripts/data/fetchusers.txt")); ?> PST</strong>, and is updated every 2 minutes.<br>
-                	There are <strong><?php #echo sizeof($userObjects); ?></strong> users connected to SFU Anime Club's Discord server.<br>
+                	There are <strong><?php echo sizeof($userObjects); ?></strong> users connected to SFU Anime Club's Discord server.<br>
                     <?php
 						if(isset($_GET["details"]) && $_GET["details"] == 1)
 						{
