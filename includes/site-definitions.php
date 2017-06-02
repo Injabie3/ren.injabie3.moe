@@ -5,7 +5,8 @@
 $sitedef_root = __DIR__."/..";
 
 #The location of the database connection file.
-$sitedef_dbconnect = $sitedef_root."/includes/config/dbconfig.php";
+#Use $sitedef_dbcursor to manipulate.
+$sitedef_dbconnect = $sitedef_root."/includes/config/db.php";
 
 #The location of the Bootstrap core, relative to the site root
 $sitedef_bootstrap = "/vendor/twbs/bootstrap";
