@@ -25,7 +25,7 @@
 		#Data
 		$luiJSON = json_decode(file_get_contents("economy-2017spring.json"), true);
 		//Get the actual username/nicknames of people, and display those instead.
-		$userObjects = file_get_contents("../luiscripts/data/fetchusers.txt");
+		$userObjects = file_get_contents("../data/fetchusers.txt");
 		$userObjects = json_decode($userObjects,true);
 		
 		#Comparison Functions
@@ -77,7 +77,7 @@
                                     </td>
                                     <td style="vertical-align: middle">
                                     <?php
-										if ($userObjects[$economyUserID]["user"]["avatar"] != NULL && array_key_exists("username",$userObjects[$economyUserID]["user"]))
+										if (array_key_exists($economyUserID,$userObjects) && array_key_exists("username",$userObjects[$economyUserID]["user"]) && $userObjects[$economyUserID]["user"]["avatar"] != NULL)
 										{
 									?>
                                     	<img src="https://cdn.discordapp.com/avatars/<?php echo $economyUserID; ?>/<?php echo $userObjects[$economyUserID]["user"]["avatar"]; ?>.png" height="75" width="75" class="img-rounded" />

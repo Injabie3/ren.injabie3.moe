@@ -26,7 +26,7 @@
 		#Data
 		$luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/duel/duelist.json"), true);
 		//Get the actual username/nicknames of people, and display those instead.
-		$userObjects = file_get_contents("/var/www/html/luiscripts/data/fetchusers.txt");
+		$userObjects = file_get_contents("../data/fetchusers.txt");
 		$userObjects = json_decode($userObjects,true);
 		
 		#Comparison Functions
