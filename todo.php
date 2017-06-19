@@ -39,7 +39,7 @@
                             </thead>
                             <tbody>
 								<tr>
-								  <td><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Planned</td>
+								  <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Complete</td>
 								  <td>Add 2FA to server management</td>
 							    </tr>
 								<tr>

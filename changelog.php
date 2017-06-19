@@ -46,7 +46,7 @@
                             ?>
                                 <tr>
                                     <td><?php echo $data["version"]; ?></td>
-                                    <td><?php echo $data["date"]; ?></td>
+                                    <td><?php echo date_format(date_create($data["date"]), "Y-m-d"); ?></td>
                                     <td><?php echo $data["description"]; ?></td>
                                 </tr>
                             <?php 
