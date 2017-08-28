@@ -21,12 +21,38 @@
 	<?php
 		#Navbar
 		require_once($sitedef_globalnav);
-		
-		#Data
-		$luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/economy/bank.json"), true);
-		//Get the actual username/nicknames of people, and display those instead.
-		$userObjects = file_get_contents("../data/fetchusers.txt");
-		$userObjects = json_decode($userObjects,true);
+        
+        #Load the correct data.
+        if ($_GET["sem"] == "2016fall")
+        # 2016 Fall semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("economy-2016fall.json"), true);
+            //Get the actual username/nicknames of people, and display those instead.
+            $userObjects = file_get_contents("../data/fetchusers.txt");
+            $userObjects = json_decode($userObjects,true);
+            $mainTitle = "Fall 2016";
+        }
+		elseif ($_GET["sem"] == "2017spring")
+        # 2017 Spring semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("economy-2017spring.json"), true);
+            //Get the actual username/nicknames of people, and display those instead.
+            $userObjects = file_get_contents("../data/fetchusers.txt");
+            $userObjects = json_decode($userObjects,true);
+            $mainTitle = "Spring 2017";
+        }
+        else
+        # Current semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/economy/bank.json"), true);
+            //Get the actual username/nicknames of people, and display those instead.
+            $userObjects = file_get_contents("../data/fetchusers.txt");
+            $userObjects = json_decode($userObjects,true);
+            $mainTitle = "Summer 2017";
+        }
 		
 		#Comparison Functions
 		require_once($sitedef_arrayCompareFunctions);
@@ -42,7 +68,7 @@
                 </p>
             </div> <!-- /renbox -->
 	        <div class="renbox">
-            	<h1>Payday Rankings - Summer 2017</h1>
+            	<h1>Payday Rankings - <?php echo $mainTitle; ?></h1>
                 <p>
                 	<div class="table table-responsive container textverticalcenter">
                         <table class="table table-condensed table-hover table-striped">

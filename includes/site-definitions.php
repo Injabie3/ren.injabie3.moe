@@ -25,6 +25,7 @@ $sitedef_footer = $sitedef_root."/includes/footer.php";
 
 #Include file for Discord API credentials
 include_once("config/discordapi.php");
+include_once("../vendor/autoload.php");
 
 $sitedef_metaAuthor = "Ren Bot";
 $sitedef_metaDescriptionPrefix = "Ren";

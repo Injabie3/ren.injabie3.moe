@@ -23,9 +23,31 @@
 		#Navbar
 		require_once($sitedef_globalnav);
 		
-		#Data
-		$luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/games/games.json"), true);
-		$luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
+        #Load the correct data.
+        if ($_GET["sem"] == "2016fall")
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("games-2016fall.json"), true);
+            $luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
+            $mainTitle = "Fall 2016";
+            $fileTimestamp = date ("Y-m-d H:i:s", filemtime("games-2016fall.json"));
+        }
+        elseif ($_GET["sem"] == "2017spring")
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("games-2017spring.json"), true);
+            $luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
+            $mainTitle = "Spring 2017";
+            $fileTimestamp = date ("Y-m-d H:i:s", filemtime("games-2017spring.json"));
+        }
+        else
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/games/games.json"), true);
+            $luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
+            $mainTitle = "Summer 2017";
+            $fileTimestamp = date ("Y-m-d H:i:s", filemtime("/home/ren/github/Ren/data/games/games.json"));
+        }
 		
 		#Comparison Functions
 		require_once($sitedef_arrayCompareFunctions);
@@ -38,11 +60,11 @@
             	<h2>Info</h2>
                 <p>
                 	This page displays number of times that each of the below games (activities) were "played" by members of the SFU Anime Club Discord.<br>
-					Ren last updated this list on <strong><?php echo date ("Y-m-d H:i:s", filemtime("/home/ren/github/Ren/data/games/games.json")); ?> PST</strong>.
+					Ren last updated this list on <strong><?php echo $fileTimestamp; ?> PST</strong>.
                 </p>
             </div> <!-- /renbox -->
 	        <div class="renbox">
-            	<h1>Game Rankings - Summer 2017</h1>
+            	<h1>Game Rankings - <?php echo $mainTitle; ?></h1>
                 <p>
                 	<div class="table table-responsive container">
                         <table class="table table-condensed table-hover table-striped">

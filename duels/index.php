@@ -23,11 +23,37 @@
 		#Navbar
 		require_once($sitedef_globalnav);
 		
-		#Data
-		$luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/duel/duelist.json"), true);
-		//Get the actual username/nicknames of people, and display those instead.
-		$userObjects = file_get_contents("../data/fetchusers.txt");
-		$userObjects = json_decode($userObjects,true);
+        #Load the correct data.
+        if ($_GET["sem"] == "2016fall")
+        # 2016 Fall semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("duels-2016fall.json"), true);
+            //Get the actual username/nicknames of people, and display those instead.
+            $userObjects = file_get_contents("../data/fetchusers.txt");
+            $userObjects = json_decode($userObjects,true);
+            $mainTitle = "Fall 2016";
+        }
+		elseif ($_GET["sem"] == "2017spring")
+        # 2017 Spring semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("duels-2017spring.json"), true);
+            //Get the actual username/nicknames of people, and display those instead.
+            $userObjects = file_get_contents("../data/fetchusers.txt");
+            $userObjects = json_decode($userObjects,true);
+            $mainTitle = "Spring 2017";
+        }
+        else
+        # Current semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/duel/duelist.json"), true);
+            //Get the actual username/nicknames of people, and display those instead.
+            $userObjects = file_get_contents("../data/fetchusers.txt");
+            $userObjects = json_decode($userObjects,true);
+            $mainTitle = "Summer 2017";
+        }
 		
 		#Comparison Functions
 		require_once($sitedef_arrayCompareFunctions);
@@ -43,7 +69,7 @@
                 </p>
             </div> <!-- /renbox -->
 	        <div class="renbox">
-            	<h1>Duels Ranking - Summer 2017</h1>
+            	<h1>Duels Ranking - <?php echo $mainTitle; ?></h1>
                 <p>
                 	<div class="table table-responsive container">
                         <table class="table table-condensed table-hover table-striped">
