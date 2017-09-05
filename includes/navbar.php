@@ -34,7 +34,7 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Payday <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li class="disabled"><a href="#"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Fall 2017</a></li>
+                    <li><a href="/economy"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Fall 2017</a></li>
                     <li><a href="/economy/?sem=2017summer"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Summer 2017</a></li>
                     <li><a href="/economy/?sem=2017spring"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Spring 2017</a></li>
                     <li><a href="/economy/?sem=2016fall"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Fall 2016</a></li>
@@ -43,7 +43,7 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Games <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li class="disabled"><a href="#"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Fall 2017</a></li>
+                    <li><a href="/games"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Fall 2017</a></li>
                     <li><a href="/games/?sem=2017summer"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Summer 2017</a></li>
                     <li><a href="/games/?sem=2017spring"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Spring 2017</a></li>
                     <li><a href="/games/?sem=2016fall"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Fall 2016</a></li>
@@ -52,7 +52,7 @@
             <li class="dropdown">
             	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Duels <span class="caret"></span></a>
             	<ul class="dropdown-menu">
-                    <li class="disabled"><a href="#"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Fall 2017</a></li>
+                    <li><a href="/duels"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Fall 2017</a></li>
                     <li><a href="/duels/?sem=2017summer"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Summer 2017</a></li>
                     <li><a href="/duels/?sem=2017spring"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Spring 2017</a></li>
                     <li><a href="/duels/?sem=2016fall"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Fall 2016</a></li>

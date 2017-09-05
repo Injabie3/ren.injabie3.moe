@@ -40,12 +40,20 @@
             $mainTitle = "Spring 2017";
             $fileTimestamp = date ("Y-m-d H:i:s", filemtime("games-2017spring.json"));
         }
+        elseif ($_GET["sem"] == "2017summer")
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("games-2017summer.json"), true);
+            $luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
+            $mainTitle = "Summer 2017";
+            $fileTimestamp = date ("Y-m-d H:i:s", filemtime("games-2017summer.json"));
+        }
         else
         {
             #Data
             $luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/games/games.json"), true);
             $luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
-            $mainTitle = "Summer 2017";
+            $mainTitle = "Fall 2017";
             $fileTimestamp = date ("Y-m-d H:i:s", filemtime("/home/ren/github/Ren/data/games/games.json"));
         }
 		
