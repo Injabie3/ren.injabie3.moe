@@ -72,9 +72,9 @@
             <li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> GitHub <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="https://github.com/ARG-TLQ/Red-DiscordBot/tree/prod"><img src="https://api.travis-ci.org/ARG-TLQ/Red-DiscordBot.svg?branch=prod" /> Ren (Production branch)</a></li>
-                    <li><a href="https://github.com/ARG-TLQ/Red-DiscordBot/tree/testing"><img src="https://api.travis-ci.org/ARG-TLQ/Red-DiscordBot.svg?branch=testing" /> Ren (Testing branch)</a></li>
-                    <li><a href="https://github.com/ARG-TLQ/Listen.moe-Discord/tree/old-prod"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Ayumi (Production branch)</a></li>
+                    <li><a href="https://github.com/SFUAnime/Red-DiscordBot/tree/prod"><img src="https://api.travis-ci.org/SFUAnime/Red-DiscordBot.svg?branch=prod" /> Ren (Production branch)</a></li>
+                    <li><a href="https://github.com/SFUAnime/Red-DiscordBot/tree/testing"><img src="https://api.travis-ci.org/SFUAnime/Red-DiscordBot.svg?branch=testing" /> Ren (Testing branch)</a></li>
+                    <li><a href="https://github.com/SFUAnime/Listen.moe-Discord/tree/old-prod"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Ayumi (Production branch)</a></li>
 
                 </ul>
            	</li>

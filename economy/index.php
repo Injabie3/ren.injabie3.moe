@@ -71,7 +71,7 @@
             //Get the actual username/nicknames of people, and display those instead.
             $userObjects = file_get_contents("../data/fetchusers.txt");
             $userObjects = json_decode($userObjects,true);
-            $mainTitle = "Fall 2017";
+            $mainTitle = "Spring 2018";
         }
 		
 		#Comparison Functions
