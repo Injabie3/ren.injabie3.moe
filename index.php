@@ -29,7 +29,7 @@
     	<div class="col-sm-12">
 			<div class="renbox">
             	<h1>SFU Anime Club - Ren on Discord</h1>
-                <p>Welcome to the page for Ren on Discord! Ren is an instance of Red-DiscordBot, which was created by <a href="https://github.com/Twentysix26/Red-DiscordBot">Twentysix</a>.  Ren bot is maintained by <a href="http://ashtontito.gq/">@sedruk</a>, @LeSpaz, and <a href="https://injabie3.moe/">@Injabie3</a>.  This website serves as an extension to Ren bot, providing more information on the statistics collected by Ren, as well as general Discord server information.</p>
+                <p>Welcome to the page for Ren on Discord! Ren is an instance of Red-DiscordBot, which was created by <a href="https://github.com/Twentysix26/Red-DiscordBot">Twentysix</a>.  Ren bot is maintained by <a href="https://github.com/KamiCreed">@KamiCreed</a>, <a href="https://github.com/zapsel">@LeSpaz</a>, and <a href="https://injabie3.moe/">@Injabie3</a>.  This website serves as an extension to Ren bot, providing more information on the statistics collected by Ren, as well as general Discord server information.</p>
                 <p>Ren Bot (Core) goes down every Friday at 4:00am Pacific Time for backup, which lasts approximately 10-20 minutes.</p>
                 <p>If you want to add features to Ren, please check out the forked GitHub repository above!</p>
             </div>
