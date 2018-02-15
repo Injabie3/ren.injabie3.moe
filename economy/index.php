@@ -139,7 +139,7 @@
 									</td>
                                     <td style="vertical-align: middle">
 										<?php
-                                            if (array_key_exists("nick",$userObjects[$economyUserID]))
+                                            if (array_key_exists("nick",$userObjects[$economyUserID]) && $userObjects[$economyUserID]["nick"] != NULL)
                                             {
                                                 echo $userObjects[$economyUserID]["nick"];
                                             }

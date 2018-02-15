@@ -130,7 +130,7 @@
 									</td>
                                     <td style="vertical-align: middle">
 										<?php
-                                            if (array_key_exists("nick", $userObjects[$userID]))
+                                            if (array_key_exists("nick", $userObjects[$userID]) && $userObjects[$userID]["nick"] != NULL)
                                             {
                                                 echo $userObjects[$userID]["nick"];
                                             }

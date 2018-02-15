@@ -135,7 +135,7 @@
 									</td>
 									<td style="vertical-align: middle">
 										<?php
-											if(array_key_exists("nick",$userObjects[$duelsUserID]))
+											if(array_key_exists("nick",$userObjects[$duelsUserID]) && $userObjects[$duelsUserID]["nick"] != NULL)
 											{
 	                                        	echo $userObjects[$duelsUserID]["nick"];
 											}
