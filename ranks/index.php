@@ -81,8 +81,8 @@
                 <p>
                 	This page displays the experience of each member of the SFU Anime Club Discord.  It is based off of chat activity.<br>
                     Levels will be included soon, and data from Mee6 may be imported.<br>
-                    To check your rank in the server, type <kbd>renranks check</kbd> in <kbd>#bot-spam</kbd>.<br>
-                    To check the leaderboard, type <kbd>renranks leaderboard</kbd> in <kbd>#bot-spam</kbd>.
+                    To check your rank in the server, type <kbd>renrank</kbd> in <kbd>#bot-spam</kbd>.<br>
+                    To check the leaderboard, type <kbd>renlevels</kbd> in <kbd>#bot-spam</kbd>.
                 </p>
             </div> <!-- /renbox -->
 	        <div class="renbox">
@@ -99,17 +99,22 @@
                             <tbody>
                             <?php
                                 require_once($sitedef_dbconnect);
-                                $results = $sitedef_dbcursor->query("SELECT @rownum := @rownum + 1 as rank, userid, xp FROM renbot.xp cross join (select @rownum := 0) r WHERE guildid = 222841664585072641 order by xp desc;");
+                                $results = $sitedef_dbcursor->query("SELECT userid, xp FROM renbot.xp WHERE guildid = 222841664585072641 order by xp desc;");
+                                $ranking = 1;
                                 while($data = $results->fetch_array())
 								{
-                                $ranking = $data["rank"];
-                                $userID = $data["userid"];
-                                $xp = $data["xp"];
+                                    // $ranking = $data["rank"];
+                                    $userID = $data["userid"];
+                                    $xp = $data["xp"];
+                                    if ($userObjects[$userID]["user"] == NULL) {
+                                        continue;
+                                    }
 							?>
                             	<tr>
                                 	<td style="vertical-align: middle">
 									<?php
-                                        echo $ranking; 
+                                        echo $ranking;
+                                        $ranking += 1;
 									?>
                                     </td>
                                     <td style="vertical-align: middle">
