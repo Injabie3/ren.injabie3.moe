@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
 			</button>
-            <a class="navbar-brand" href="/"><img class="img-rounded" src="/images/ren_v2.png" height="20"/></a>
+            <a class="navbar-brand" href="/"><img class="img-rounded" src="/images/ren_v3.png" height="20"/></a>
             <span class="navbar-brand">Ren Bot</span>
 		</div>
 	<div id="navbar" class="navbar-collapse collapse">

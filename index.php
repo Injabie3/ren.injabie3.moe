@@ -40,7 +40,7 @@
         	<div class="renbox">
             	<h2>Ren (Core)</h2>
                 <p>
-                <img src="/images/ren_v2.png" class="img-rounded" height=70 width=70 />              
+                <img src="/images/ren_v3.png" class="img-rounded" height=70 width=70 />              
 				<?php
                     	$output = (int)shell_exec('ps -C python3.5 -o etimes=');
 						$days = (int)($output/3600/24);
@@ -67,7 +67,7 @@
             <div class="renbox" onclick="getAWSRenUptime()">
             	<h2>Ren (Audio/RSS)</h2>
                 	<p>
-                    	<img onload="getAWSRenUptime()" src="/images/ren_v2.png" class="img-rounded" height=70 width=70 />
+                    	<img onload="getAWSRenUptime()" src="/images/ren_v3.png" class="img-rounded" height=70 width=70 />
                     	<span id="renuptime">Checking...</span>
                     </p>
             </div> <!-- /renbox -->
@@ -76,7 +76,7 @@
             <div class="ayubox" onclick="getAWSAyumiUptime()">
             	<h2>Ayumi (Listen.moe)</h2>
                 <p>
-                	<img onload="getAWSAyumiUptime()" src="/images/ayumi_v2.png" class="img-rounded" height=70 width=70 />
+                	<img onload="getAWSAyumiUptime()" src="/images/ayumi_v3.png" class="img-rounded" height=70 width=70 />
               		<span id="ayumiuptime">Checking...</span>
                 </p>
             </div> <!-- /renbox -->
