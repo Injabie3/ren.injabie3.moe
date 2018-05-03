@@ -23,8 +23,8 @@
     <link href="/css/sticky-footer.css" rel="stylesheet">		<!-- Sticky Footer -->
     <link href="/css/navbar-static-top.css" rel="stylesheet">	<!-- Navbar -->
     <link rel="icon" href="/favicon.ico" type='image/x-icon'/ > <!-- Favicon -->
-    <meta property="og:image" content="http://discord.injabie3.moe/images/ren_v3.png" />	<!-- Thumbnail -->
-    <meta property="og:image:secure_url" content="https://discord.injabie3.moe/images/ren_v3.png" />	<!-- Thumbnail -->
+    <meta property="og:image" content="http://ren.injabie3.moe/images/ren_v3.png" />	<!-- Thumbnail -->
+    <meta property="og:image:secure_url" content="https://ren.injabie3.moe/images/ren_v3.png" />	<!-- Thumbnail -->
     <?php
 		#Include site functions.
 		#require_once($sitedef_functions);
