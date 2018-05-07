@@ -60,13 +60,22 @@
             $mainTitle = "Fall 2017";
             $fileTimestamp = date ("Y-m-d H:i:s", filemtime("games-2017fall.json"));
         }
+		elseif ($_GET["sem"] == "2018spring")
+		# 2017 Fall semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("games-2018spring.json"), true);
+            $luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
+            $mainTitle = "Spring 2018";
+            $fileTimestamp = date ("Y-m-d H:i:s", filemtime("games-2018spring.json"));
+        }
         else
 		# Current semester
         {
             #Data
             $luiJSON = json_decode(file_get_contents("/home/ren/github/Ren/data/games/games.json"), true);
             $luiJSON = $luiJSON[$sitedef_discordServerID]['GAMES'];
-            $mainTitle = "Spring 2018";
+            $mainTitle = "Summer 2018";
             $fileTimestamp = date ("Y-m-d H:i:s", filemtime("/home/ren/github/Ren/data/games/games.json"));
         }
 		
