@@ -74,7 +74,7 @@
             $mainTitle = "Spring 2018";
         }
 		elseif ($_GET["sem"] == "2018summer")
-        # 2018 Spring semester
+        # 2018 Summer semester
         {
             #Data
             $luiJSON = json_decode(file_get_contents("economy-2018summer.json"), true);
@@ -82,6 +82,16 @@
             $userObjects = file_get_contents("../data/fetchusers.txt");
             $userObjects = json_decode($userObjects,true);
             $mainTitle = "Summer 2018";
+        }
+		elseif ($_GET["sem"] == "2018fall")
+        # 2018 Fall semester
+        {
+            #Data
+            $luiJSON = json_decode(file_get_contents("economy-2018fall.json"), true);
+            //Get the actual username/nicknames of people, and display those instead.
+            $userObjects = file_get_contents("../data/fetchusers.txt");
+            $userObjects = json_decode($userObjects,true);
+            $mainTitle = "Fall 2018";
         }
         else
         # Current semester
@@ -91,7 +101,7 @@
             //Get the actual username/nicknames of people, and display those instead.
             $userObjects = file_get_contents("../data/fetchusers.txt");
             $userObjects = json_decode($userObjects,true);
-            $mainTitle = "Fall 2018";
+            $mainTitle = "Spring 2019";
         }
 		
 		#Comparison Functions

@@ -35,7 +35,8 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Payday <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-					<li><a href="/economy"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Fall 2018</a></li>
+					<li><a href="/economy"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Spring 2019</a></li>
+					<li><a href="/economy/?sem=2018fall"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Summer 2018</a></li>
 					<li><a href="/economy/?sem=2018summer"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Summer 2018</a></li>
                     <li><a href="/economy/?sem=2018spring"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Spring 2018</a></li>
                     <li><a href="/economy/?sem=2017fall"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Fall 2017</a></li>
@@ -47,7 +48,8 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Games <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/games"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Fall 2018</a></li>
+                    <li><a href="/games"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Spring 2019</a></li>
+                    <li><a href="/games/?sem=2018fall"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Fall 2018</a></li>
                     <li><a href="/games/?sem=2018summer"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Summer 2018</a></li>
                     <li><a href="/games/?sem=2018spring"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Spring 2018</a></li>
 					<li><a href="/games/?sem=2017fall"><span class="glyphicon glyphicon-tower" aria-hidden="true"></span> Fall 2017</a></li>
@@ -59,7 +61,8 @@
             <li class="dropdown">
             	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Duels <span class="caret"></span></a>
             	<ul class="dropdown-menu">
-                    <li><a href="/duels"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Fall 2018</a></li>
+                    <li><a href="/duels"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Spring 2019</a></li>
+                    <li><a href="/duels/?sem=2018fall"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Fall 2018</a></li>
                     <li><a href="/duels/?sem=2018summer"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Summer 2018</a></li>
 					<li><a href="/duels/?sem=2018spring"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Spring 2018</a></li>
                     <li><a href="/duels/?sem=2017fall"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Fall 2017</a></li>
@@ -78,8 +81,8 @@
             <li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> GitHub <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="https://github.com/SFUAnime/Red-DiscordBot/tree/prod"><img src="https://api.travis-ci.org/SFUAnime/Red-DiscordBot.svg?branch=prod" /> Ren (Production branch)</a></li>
-                    <li><a href="https://github.com/SFUAnime/Red-DiscordBot/tree/testing"><img src="https://api.travis-ci.org/SFUAnime/Red-DiscordBot.svg?branch=testing" /> Ren (Testing branch)</a></li>
+                    <li><a href="https://github.com/SFUAnime/Ren/tree/prod"><img src="https://api.travis-ci.org/SFUAnime/Ren.svg?branch=prod" /> Ren (Production branch)</a></li>
+                    <li><a href="https://github.com/SFUAnime/Ren/tree/testing"><img src="https://api.travis-ci.org/SFUAnime/Ren.svg?branch=testing" /> Ren (Testing branch)</a></li>
                     <li><a href="https://github.com/SFUAnime/Listen.moe-Discord/tree/old-prod"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Ayumi (Production branch)</a></li>
 
                 </ul>
