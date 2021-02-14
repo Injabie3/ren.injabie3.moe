@@ -83,20 +83,15 @@
         </div> <!-- End col-sm-4 -->
 	</div>
     <div class="row">
-    	<div class="col-sm-6">
-			<!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="7167/"></script> <!-- end feedwind code -->
-        </div> <!-- /col-sm-6 -->
-        <div class="col-sm-6">
+        <div class="col-md-6">
 		<a class="twitter-timeline" data-height="650" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/SfuAnime">Tweets by SFU Anime</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	</div><!-- /col-sm-6 -->
-    </div> <!-- /row -->
-    <div class="row">
-        <div class="col-md-12">
+	    </div><!-- /col-md-6 -->
+        <div class="col-md-6">
                 <div class="renbox">
                 <h1>SAD Year End Video</h1>
                 <p><iframe width="100%" height="425" src="https://www.youtube.com/embed/yYCuxO4tWyc" frameborder="0" allowfullscreen></iframe></p>
             </div>
-        </div> <!-- End col-md-12 -->
+        </div> <!-- End col-md-6 -->
     </div> <!-- End row -->
 
     </div> <!-- /container -->
