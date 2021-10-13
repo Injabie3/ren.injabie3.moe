@@ -38,11 +38,11 @@
     <div class="row">
         <div class="col-sm-4">
         	<div class="renbox">
-            	<h2>Ren (Core)</h2>
+            	<h2>Ren (Staging)</h2>
                 <p>
                 <img src="/images/ren_v3.png" class="img-rounded" height=70 width=70 />              
 				<?php
-                    	$output = (int)shell_exec('ps -C python3.5 -o etimes=');
+                    	$output = (int)shell_exec('ps -C "redbot Ren-Test" -o etimes=');
 						$days = (int)($output/3600/24);
 						$hours = (int)($output/3600)-($days*24);
 						$minutes = (int)(($output/60)-($hours+24*$days)*60);
@@ -65,7 +65,7 @@
 		</div> <!-- End col-sm-4 -->
         <div class="col-sm-4">
             <div class="renbox" onclick="getAWSRenUptime()">
-            	<h2>Ren (Audio/RSS)</h2>
+            	<h2>Ren (Production)</h2>
                 	<p>
                     	<img onload="getAWSRenUptime()" src="/images/ren_v3.png" class="img-rounded" height=70 width=70 />
                     	<span id="renuptime">Checking...</span>
